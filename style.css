@@ -222,7 +222,7 @@ label[for='toggle-all'] {
 	appearance: none;
 }
 
-#todo-list li .toggle:after {
+#todo-list li .toggle::after {
 	content: '✔';
 	line-height: 43px; /* 40 + a couple of pixels visual adjustment */
 	font-size: 20px;
@@ -230,7 +230,7 @@ label[for='toggle-all'] {
 	text-shadow: 0 -1px 0 #bfbfbf;
 }
 
-#todo-list li .toggle:checked:after {
+#todo-list li .toggle:checked::after {
 	color: #85ada7;
 	text-shadow: 0 1px 0 #669991;
 	bottom: 1px;
